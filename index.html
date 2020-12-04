@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Yuto's portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="contents">
+  <header>
+    <h1>Yuto's<br>
+       Portfolio</h1>
+       <img src="top.jpg" alt="topの写真">
+       <div class="sp-box">
+         <input type="checkbox" name="checkbox" id="nav-opened">
+        <div class="sp-check-box">
+         <label for="nav-opened" class="nav-bar"><span></span></label>
+        </div>
+         <div class="nav-contents">
+          <ul class="sp-menu">
+            <li class="sp-list"><a href="#About">About</a></li>
+            <li class="sp-list"><a href="#Works">Works</a></li>
+            <li class="sp-list"><a href="#Skill">Skill</a></li>
+            <li class="sp-list"><a href="#Contact">Contact</a></li>
+          </ul>
+         </div>
+       </div>
+    <nav class="h-nav">
+      <ul class="h-menu">
+        <li class="h-list"><a href="#About">About</a></li>
+        <li class="h-list"><a href="#Works">Works</a></li>
+        <li class="h-list"><a href="#Skill">Skill</a></li>
+        <li class="h-list"><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2 class="m-h2" id ="About">ABOUT</h2>
+    <div class="about-box">
+      <img src="漫画家のアイコン1.jpeg" alt="男の写真">
+      <div class="about-list">
+      <p>はじめまして、工藤 裕人(Kudo Yuto)と申します。</p>
+      <p>Web制作の仕事をしてみたいと思い、2020年8月下旬頃よりHTML5,CSS3の勉強を始め、コーディングのスキルを身につけました。</p>
+      <p>お客様に満足のいくサービスをお届けできるよう、現在も日々スキルアップのために継続して勉強を進めています。</p>
+    </div>
+    </div>
+    <h2 class="m-h2" id="Works">WORKS</h2>
+    <div class="works-list">
+      <p>今までにWeb制作(コーディング)したサイト集です。</p>
+      <p>※課題で制作した模写コーディングや架空サイトになります。</p>
+    </div>
+      <div class="work1">
+        <div class="w-img-box">
+        <a href="https://yuto55.github.io/Yuto-Portofolio-work1/">
+          <img src="works1.png" alt="work1の写真">
+        </a>
+      </div>
+        <div class="w-detail">
+          <h3>模写コーディング①</h3>
+          <p>製作時間:約5時間</p>
+          <p>使用言語:HTML/CSS</p>
+          <p>レスポンシブ対応</p>
+        </div>
+      </div>
+        <div class="work2">
+          <div class="w-img-box">
+          <a href="https://yuto55.github.io/Yuto-Portfolio-work2/">
+            <img src="works2.png" alt="work2の写真">
+          </a>
+          </div>
+          <div class="w-detail">
+            <h3>模写コーディング②</h3>
+            <p>製作時間:約8時間</p>
+            <p>使用言語:HTML/CSS</p>
+            <p>レスポンシブ対応</p>
+          </div>
+      </div>
+    <div class="work3">
+      <div class="w-img-box">
+      <a href="https://yuto55.github.io/Yuto-Portfolio-work3/#">
+        <img src="work3.png" alt="work3の写真">
+      </a>
+      </div>
+      <div class="w-detail">
+        <h3>架空サイト</h3>
+        <p>製作時間:約7時間</p>
+        <p>使用言語:HTML/CSS</p>
+        <p>レスポンシブ対応</p>
+      </div>
+  </div>
+  <h2 class="m-h2" id ="Skill">SKILL</h2>
+  <div class="skill-box">
+    <div class="skill-list">
+        <img src="HTML5のロゴアイコン.png" alt="htmlの写真">
+        <p>HTML5</p>
+    </div>
+    <div class="skill-list">
+      <img src="CSSアイコン.png" alt="cssの写真">
+      <p>CSS3</p>
+    </div>
+  <div class="skill-list">
+    <img src="スマートフォンのアイコン素材 その2.png" alt="レスポンシブ対応の写真">
+    <p>レスポンシブ対応</p>
+  </div>
+  </div>
+  <div class="skill-box">
+  <div class="skill-list2">
+    <img src="unnamed.jpg" alt="スラックの写真" class="slack-img">
+    <p>Slack</p>
+  </div>
+  <div class="skill-list2">
+    <img src="unnamed (1).jpg" alt="チャットワークの写真" class="chat-img">
+    <p>Chatwork</p>
+  </div>
+  <div class="skill-list2">
+    <img src="ワードプレスのアイコン.jpeg" alt="ワードプレスの写真">
+    <p>Wordpress</p>
+  </div>
+</div>
+  <h2 class="m-h2" id ="Contact">CONTACT</h2>
+  <p class="c-point">お問い合わせはこちらから</p>
+  <form action="program.php" method="POST">
+    <table>
+    <tr>
+      <th>お名前※</th>
+      <td><input type="text" name="name" required></td>
+    </tr>
+    <tr>
+      <th>メールアドレス※</th>
+      <td><input type="email" name="email" required></td>
+    </tr>
+    <tr>
+      <th>お問い合わせ・ご質問内容※</th>
+      <td><textarea name="comment" cols="20" rows="5" required></textarea></td>
+    </tr>
+  </table>
+    <p class="submit"><input type="submit" name="submit" value="送信する"></p>
+  </form>
+  <p class="page-top"><a href="#">↑Page Top</a></p>
+  </main>
+<footer>
+<p><small>Copyright&copy; Yuto's Portfolio2020 All Rights Reserved.</small></p>
+</footer>
+</div>
+</body>
+</html>
